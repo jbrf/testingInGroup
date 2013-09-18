@@ -3,11 +3,10 @@
 
 class car
 {
-   //public car Nissan {get;set;}
-
+ 
     public string Modelname { get; set; }
     public int NumberOfDoors { get; set; }
-    public int 
+ 
 
    public car(string x,int numOfDoors)
    {
@@ -22,16 +21,20 @@ class Nissan : car
     public Nissan(string modelname,int numOfDoors): base(modelname,numOfDoors) { }
 }
 
-class Toyota : car
-{ 
-    public Toyota(
+class Audi : car
+{
+    public Audi(string modelname, int numOfDoors) : base(modelname, numOfDoors) { }
+
+
 }
+
 class Program
 {
     static void Main()
     {
         car Nissan = new Nissan("GTR",3);
+        car Audi = new Audi("r8", 2);
         Console.WriteLine(Nissan.Modelname + " "+ Nissan.NumberOfDoors);
-
+        Console.WriteLine(Audi.Modelname + " " + Audi.NumberOfDoors);
     }
 }
