@@ -16,6 +16,11 @@ class car
 
 }
 
+class Fiat : car
+{
+    public Fiat(string modelname, int numDoors); base(modelnamn, numORdoors) {}
+}
+
 class Nissan : car 
 {
     public Nissan(string modelname,int numOfDoors): base(modelname,numOfDoors) { }
@@ -34,7 +39,9 @@ class Program
     {
         car Nissan = new Nissan("Nissan GTR",2);
         car Audi = new Audi("Audi r8", 2);
+        car Fiat = New Fiat("Fiat PUNTO 1,2", 5);
         Console.WriteLine(Nissan.Modelname + " has "+ Nissan.NumberOfDoors + " doors" );
         Console.WriteLine(Audi.Modelname + " has " + Audi.NumberOfDoors + " doors");
+        Console.WriteLine(Fjat.Modelname + " has "+ Fiat.NumberOfDoors + " doors" );
     }
 }
