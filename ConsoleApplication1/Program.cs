@@ -7,7 +7,7 @@ class car
 
     public string Modelname { get; set; }
     public int NumberOfDoors { get; set; }
-
+    public int 
 
    public car(string x,int numOfDoors)
    {
@@ -22,6 +22,10 @@ class Nissan : car
     public Nissan(string modelname,int numOfDoors): base(modelname,numOfDoors) { }
 }
 
+class Toyota : car
+{ 
+    public Toyota(
+}
 class Program
 {
     static void Main()
