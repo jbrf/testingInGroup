@@ -32,9 +32,9 @@ class Program
 {
     static void Main()
     {
-        car Nissan = new Nissan("GTR",3);
-        car Audi = new Audi("r8", 2);
-        Console.WriteLine(Nissan.Modelname + " "+ Nissan.NumberOfDoors);
-        Console.WriteLine(Audi.Modelname + " " + Audi.NumberOfDoors);
+        car Nissan = new Nissan("Nissan GTR",2);
+        car Audi = new Audi("Audi r8", 2);
+        Console.WriteLine(Nissan.Modelname + " has "+ Nissan.NumberOfDoors + " doors" );
+        Console.WriteLine(Audi.Modelname + " has " + Audi.NumberOfDoors + " doors");
     }
 }
