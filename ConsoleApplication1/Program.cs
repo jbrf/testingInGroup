@@ -2,8 +2,8 @@
 
 
 class car
-{ 
-
+{
+    car Nissan = new car();
 
 
 }
